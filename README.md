@@ -13,9 +13,14 @@ The details of the required test can be found at https://www.freecodecamp.org/le
 https://get-your-url-shortened.glitch.me
 
 Example of Usage:
+
 Input https://www.google.com/ into https://get-your-url-shortened.glitch.me/
+
+Output:
+
+Page URL: https://get-your-url-shortened.glitch.me/api/shorturl
 
 {"original_url": "https://www.google.com/", "short_url": 662 }
 
-visit https://get-your-url-shortened.glitch.me/api/shorturl/662 will redirect you to www.google.com
+if user visit https://get-your-url-shortened.glitch.me/api/shorturl/662  the page will redirected to www.google.com
 
